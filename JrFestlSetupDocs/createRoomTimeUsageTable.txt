@@ -1,0 +1,11 @@
+CREATE TABLE RoomTimeUsage (
+	RoomID SMALLINT, 
+	StartTime Time,
+  	Judging_Level enum('PrePrimToElem','MedToModDiff1','ModDiff2ToMusAdv') NOT NULL default 'PrePrimToElem', 
+	Instrument VARCHAR(15),
+	StudioID INT(11), 
+	FOREIGN KEY (RoomID) REFERENCES Rooms(RoomID),
+	FOREIGN KEY (StudioID) REFERENCES StudioData(StudioID),
+	FOREIGN KEY (Judging_Level) REFERENCES StudioData(Judging_Preference), 
+	PRIMARY KEY (RoomID, StartTime)
+);

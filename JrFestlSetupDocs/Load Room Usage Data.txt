@@ -1,0 +1,104 @@
+INSERT INTO RoomTimeUsage VALUES 
+	(1,'8:00',  'MedToModDiff1', 'Any Piano Event', NULL),
+	(1,'9:00',  'MedToModDiff1', 'Any Piano Event', NULL),
+	(1,'10:00', 'MedToModDiff1', 'Any Piano Event', NULL), 
+	(1,'11:00', 'MedToModDiff1', 'Any Piano Event', NULL), 
+	(1,'12:00', 'MedToModDiff1', 'Any Piano Event', NULL), 
+	(1,'13:00', 'MedToModDiff1', 'Any Piano Event', NULL), 
+	(1,'14:00', 'MedToModDiff1', 'Any Piano Event', NULL), 
+	(1,'15:00', 'ModDiff2ToMusAdv', 'Any Piano Event', NULL),
+	(1,'16:00', 'ModDiff2ToMusAdv', 'Any Piano Event', NULL), 
+	(1,'17:00', 'ModDiff2ToMusAdv', 'Any Piano Event', NULL);
+
+INSERT INTO RoomTimeUsage VALUES 
+	(2,'8:00',  'PrePrimToElem', 'Any Piano Event', NULL),
+	(2,'9:00',  'PrePrimToElem', 'Any Piano Event', NULL),
+	(2,'10:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(2,'11:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(2,'12:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(2,'13:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(2,'14:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(2,'15:00', 'PrePrimToElem', 'Any Piano Event', NULL),
+	(2,'16:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(2,'17:00', 'PrePrimToElem', 'Any Piano Event', NULL);
+INSERT INTO RoomTimeUsage VALUES 
+	(3,'8:00',  'PrePrimToElem', 'Any Piano Event', NULL),
+	(3,'9:00',  'PrePrimToElem', 'Any Piano Event', NULL),
+	(3,'10:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(3,'11:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(3,'12:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(3,'13:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(3,'14:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(3,'15:00', 'PrePrimToElem', 'Any Piano Event', NULL),
+	(3,'16:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(3,'17:00', 'PrePrimToElem', 'Any Piano Event', NULL);
+INSERT INTO RoomTimeUsage VALUES 
+	(4,'8:00',  NULL, 'Musicianship', NULL),
+	(4,'9:00',  'PrePrimToElem', 'Any Piano Event', NULL),
+	(4,'10:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(4,'11:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(4,'12:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(4,'13:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(4,'14:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(4,'15:00', 'PrePrimToElem', 'Any Piano Event', NULL),
+	(4,'16:00', 'PrePrimToElem', 'Any Piano Event', NULL), 
+	(4,'17:00', 'PrePrimToElem', 'Any Piano Event', NULL);
+INSERT INTO RoomTimeUsage VALUES 
+	(5,'8:00',  NULL, 'Musicianship', NULL),
+	(5,'9:00',  NULL, 'Not Available', NULL),
+	(5,'10:00', NULL, 'Not Available', NULL), 
+	(5,'11:00', NULL, 'Not Available', NULL), 
+	(5,'12:00', NULL, 'Not Available', NULL), 
+	(5,'13:00', NULL, 'Not Available', NULL), 
+	(5,'14:00', NULL, 'Not Available', NULL), 
+	(5,'15:00', NULL, 'Not Available', NULL),
+	(5,'16:00', NULL, 'Not Available', NULL), 
+	(5,'17:00', NULL, 'Not Available', NULL);
+INSERT INTO RoomTimeUsage VALUES 
+	(6,'8:00',  'MedToModDiff1', 'Musicianship', NULL),
+	(6,'9:00',  'MedToModDiff1', 'Any Piano Event', NULL),
+	(6,'10:00', 'MedToModDiff1', 'Any Piano Event', NULL), 
+	(6,'11:00', 'MedToModDiff1', 'Any Piano Event', NULL), 
+	(6,'12:00', 'MedToModDiff1', 'Any Piano Event', NULL), 
+	(6,'13:00', 'MedToModDiff1', 'Any Piano Event', NULL), 
+	(6,'14:00', 'MedToModDiff1', 'Any Piano Event', NULL), 
+	(6,'15:00', 'MedToModDiff1', 'Not Available', NULL),
+	(6,'16:00', 'MedToModDiff1', 'Not Available', NULL), 
+	(6,'17:00', 'MedToModDiff1', 'Not Available', NULL);
+INSERT INTO RoomTimeUsage VALUES 
+	(7,'8:00',  'ModDiff2ToMusAdv', 'Any Piano Event', NULL),
+	(7,'9:00',  'ModDiff2ToMusAdv', 'Any Piano Event', NULL),
+	(7,'10:00', 'ModDiff2ToMusAdv', 'Any Piano Event', NULL), 
+	(7,'11:00', 'ModDiff2ToMusAdv', 'Any Piano Event', NULL), 
+	(7,'12:00', 'ModDiff2ToMusAdv', 'Any Piano Event', NULL), 
+	(7,'13:00', 'ModDiff2ToMusAdv', 'Any Piano Event', NULL), 
+	(7,'14:00', 'ModDiff2ToMusAdv', 'Any Piano Event', NULL), 
+	(7,'15:00', 'ModDiff2ToMusAdv', 'Not Available', NULL),
+	(7,'16:00', 'ModDiff2ToMusAdv', 'Not Available', NULL), 
+	(7,'17:00', 'ModDiff2ToMusAdv', 'Not Available', NULL);
+INSERT INTO RoomTimeUsage VALUES 
+	(8,'8:00',  NULL, 'Any Voice Event', NULL),
+	(8,'9:00',  NULL, 'Any Voice Event', NULL),
+	(8,'10:00', NULL, 'Any Voice Event', NULL), 
+	(8,'11:00', NULL, 'Any Voice Event', NULL), 
+	(8,'12:00', NULL, 'Any Voice Event', NULL), 
+	(8,'13:00', NULL, 'Any Voice Event', NULL), 
+	(8,'14:00', NULL, 'Any Voice Event', NULL), 
+	(8,'15:00', NULL, 'Any Voice Event', NULL),
+	(8,'16:00', NULL, 'Any Voice Event', NULL), 
+	(8,'17:00', NULL, 'Any Voice Event', NULL);
+INSERT INTO RoomTimeUsage VALUES 
+	(9,'8:00',  NULL, 'Any Flute Event', NULL),
+	(9,'9:00',  NULL, 'Any Flute Event', NULL),
+	(9,'10:00', NULL, 'Any Flute Event', NULL), 
+	(9,'11:00', NULL, 'Any Flute Event', NULL), 
+	(9,'12:00', NULL, 'Any Flute Event', NULL), 
+	(9,'13:00', NULL, 'Any Flute Event', NULL), 
+	(9,'14:00', NULL, 'Any Flute Event', NULL), 
+	(9,'15:00', NULL, 'Any Flute Event', NULL),
+	(9,'16:00', NULL, 'Any Flute Event', NULL), 
+	(9,'17:00', NULL, 'Any Flute Event', NULL);
+
+
+
+

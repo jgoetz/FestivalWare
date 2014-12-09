@@ -1,0 +1,4 @@
+use test;
+Select * from Events;
+select * from classes;
+

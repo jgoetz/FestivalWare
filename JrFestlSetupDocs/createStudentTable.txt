@@ -1,0 +1,21 @@
+CREATE TABLE StudentData (
+  StudentID int(11) NOT NULL auto_increment,
+  TimeStamp datetime NOT NULL default '0000-00-00 00:00:00',
+  FirstName varchar(30) NOT NULL default '',
+  MiddleName varchar(30) default NULL,
+  LastName varchar(30) NOT NULL default '',
+  StudentEmail varchar(50) NOT NULL default '',
+  StudioID int(11) NOT NULL default '0',
+  Street_Addr varchar(75) NOT NULL default '',
+  City varchar(25) NOT NULL default 'Las Vegas',
+  State enum('AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','PR','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY') NOT NULL default 'NV',
+  Zip mediumint(5) NOT NULL default '0',
+  Phone varchar(12) NOT NULL default '',
+  Birthdate date default NULL,
+  ParentName varchar(45) NOT NULL default '',
+  ParentPhone varchar(12) NOT NULL default '',
+  Monitor enum('Y','N') NOT NULL default 'N',
+  PRIMARY KEY  (StudentID),
+  UNIQUE KEY NameBirthdate (FirstName,LastName,Birthdate)
+) TYPE=MyISAM;
+

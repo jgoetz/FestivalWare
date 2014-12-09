@@ -1,0 +1,28 @@
+$conn = mysql_connect ( "localhost","lvjrfest_adder","pn03cck") or die(mysql_error()); 
+mysql_select_db("lvjrfest_studios", $conn);
+
+$sql = 'SELECT `reqID` ,
+ `reqTimeStamp` ,
+ `reqFirstName` ,
+ `reqLastName` ,
+ `reqemail` ,
+ `reqLoginID` , 
+`reqStudioName` ,
+ `reqStreet_Addr` ,
+ `reqCity` , 
+ `reqState` ,
+ `reqZip` ,
+ `reqPhone` ,
+ `CelPhone` ,
+ `Piano` ,
+ `Voice` ,
+ `Woodwinds` ,
+ `Strings` ,
+ `Brass` ,
+ `Organ` ,
+ `Other` ,
+ `reqCommittee_Preference` ,
+ `reqJudging_Preference` ,
+ `reqEastOrWest` ,
+ `IsLegit`
+ FROM `StudioData`';

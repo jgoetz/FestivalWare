@@ -1,0 +1,35 @@
+CREATE TABLE StudioData (
+  StudioID int(11) NOT NULL auto_increment,
+  TimeStamp datetime NOT NULL default '0000-00-00 00:00:00',
+  FirstName varchar(30) NOT NULL default '',
+  LastName varchar(50) NOT NULL default '',
+  email varchar(50) NOT NULL default '',
+  LoginID varchar(10) NOT NULL default '',
+  Password varchar(13) NOT NULL default '',
+  StudioName varchar(50) NOT NULL default '',
+  Street_Addr varchar(75) NOT NULL default '',
+  City varchar(25) NOT NULL default 'Las Vegas',
+  State enum('AL','AK','AZ','AR','CA','CO','CT','DE','DC','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','PR','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY') NOT NULL default 'NV',
+  Zip mediumint(5) NOT NULL default '0',
+  Phone varchar(12) NOT NULL default '',
+  CelPhone varchar(12) default NULL,
+  Piano enum('Y','N') default 'N',
+  Voice enum('Y','N') default 'N',
+  Woodwinds enum('Y','N') default 'N',
+  Strings enum('Y','N') default 'N',
+  Brass enum('Y','N') default 'N',
+  Musicianship enum('Y','N') default 'N',
+  Committee_Preference enum('Auditing','Awards','Event','Facilities','Food','Judging','Mailings','Monitors','Organization','Phone','Validation') NOT NULL default 'Auditing',
+  Judging_Preference enum('PrePrimToElem','MedToModDiff1','ModDiff2ToMusAdv') NOT NULL default 'PrePrimToElem',
+  EastOrWest enum('E','W') default NULL,
+  IsLegit enum('Y','N') default 'N',
+  LVMTAMember enum('Y','N') NOT NULL default 'N',
+  PRIMARY KEY  (StudioID),
+  UNIQUE KEY LoginID (LoginID),
+  UNIQUE KEY StudioName (StudioName)
+) TYPE=MyISAM;
+
+CREATE TABLE Passwords (
+	StudioID INT(11) NOT NULL,
+	Password varchar(13) NOT NULL
+)TYPE=MyISAM;

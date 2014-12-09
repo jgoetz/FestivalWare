@@ -1,0 +1,9 @@
+insert into History values (53839,"2003-12-15 19:32:32",2093,25,2004,50,42,"\"Mary Had A Little Lamb\"","\"Unknown\"","\"Twinkle Twinkle Little Bat\"","\"Lewis Carroll\"",5,"",0,"");
+insert into History values (53851,"2003-12-28 17:42:23",3094,15,2004,46,16,"\"Frere Jacque\"","\"Bill Twist\"","\"Rose Garden\"","\"Jack\"",15,"",0,"");
+insert into History values (53850,"2003-12-28 17:41:48",3096,25,2004,46,16,"\"Row"," Row","Row Your Boat\"","\"Paul McCartney\"",10,"",0,"");
+insert into History values (53849,"2003-12-28 17:30:56",3093,15,2004,46,16,"\"Frere Jacque\"","\"John Lenin\"","\"Communism Rock\"","\"Jack\"",5,"",0,"");
+insert into History values (53848,"2003-12-28 17:30:24",3094,15,2004,46,16,"\"Ring Around the Rosie\"","\"Henry Fonda\"","\"Belle Cantina\"","\"Solomon\"",20,"",0,"");
+insert into History values (53847,"2003-12-28 17:26:12",3092,15,2004,46,16,"\"LoveGrows\"","\"Henry Mancini\"","\"Belle Cantina\"","\"Solomon\"",15,"",0,"");
+insert into History values (53852,"2003-12-28 18:01:00",3095,88,2004,50,42,"\"Good Grief\"","\"Charlie Brown\"","\"Belle Cantina\"","\"Solomon\"",5,"",0,"");
+insert into History values (53853,"2003-12-28 18:02:39",3057,88,2004,50,42,"\"Blow Me\"","\"Jerry Lewis\"","\"Kiss Goodbye\"","\"Dean Martin\"",15,"",0,"");
+insert into History values (53854,"2003-12-28 18:04:07",3096,87,2004,29,31,"\"Babysitting Blues\"","\"Chris Fox\"","\"Hello Doily\"","\"Knitting Circle\"",20,"",0,"");

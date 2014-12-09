@@ -1,0 +1,25 @@
+create table History
+(
+HistoryID INT not null PRIMARY KEY AUTO_INCREMENT,
+TimeStamp DATETIME not null default '0000-00-00 00:00:00',
+StudentID INT not null,
+StudioID INT not null,
+Year INT not null,
+EventID SMALLINT not null default '50', 
+ClassID SMALLINT not null default '12',
+RequiredSelection VARCHAR(75) not null,
+RequiredComposer VARCHAR(75) not null,
+ChoiceSelection VARCHAR(75) not null,
+ChoiceComposer VARCHAR(75) not null,
+PerformanceLength SMALLINT not null,
+Scheduled ENUM ('Y', 'N') DEFAULT 'N',
+SCJM ENUM ('Y', 'N') DEFAULT 'N',
+Points INT default '0',
+Rating ENUM ('NoRating',
+		'Excellent',
+		'Fair',
+		'Good',
+		'Superior',
+		'VeryGood') not null default 'NoRating'
+	);
+

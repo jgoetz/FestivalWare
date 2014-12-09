@@ -1,0 +1,10 @@
+INSERT INTO Rooms (RoomDescription) Values 
+("HFA 147"),
+("HFA 212"),
+("HFA 214"),
+("HFA 222"),
+("HFA 224"),
+("BMC 159"),
+("BMC 160"),
+("Voice Studio"),
+("Woodwind Studio");

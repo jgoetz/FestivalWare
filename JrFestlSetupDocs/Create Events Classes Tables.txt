@@ -1,0 +1,21 @@
+use test;
+create table Events (
+ 	EventID SMALLINT PRIMARY KEY AUTO_INCREMENT,
+	EventName VARCHAR (35),
+	EventOn CHAR(1)
+	);
+
+create table Classes (
+	ClassID SMALLINT PRIMARY KEY AUTO_INCREMENT,
+	ClassDescription VARCHAR (40)
+	);
+
+create table Events_Classes (
+	EventID SMALLINT,
+	ClassID SMALLINT,
+	FOREIGN KEY (EventID) REFERENCES Events(EventID) ,
+	FOREIGN KEY (ClassID) REFERENCES Classes(ClassID)
+	);
+
+source ClassesData.txt;
+Source EventsData.txt;

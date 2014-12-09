@@ -1,0 +1,8 @@
+CREATE TABLE RoomTimeHistory (
+	RoomID SMALLINT, 
+	StartTime Time, 
+	HistoryID INT(11), 
+	FOREIGN KEY (RoomID) REFERENCES Rooms(RoomID),
+	FOREIGN KEY (HistoryID) REFERENCES History(HistoryID), 
+	PRIMARY KEY (RoomID, StartTime)
+);

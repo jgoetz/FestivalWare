@@ -1,0 +1,225 @@
+EventID	EventName
+1	Accordion Concerto
+2	Accordion Duet
+3	Accordion Ensemble
+4	Accordion Solo
+5	American Patriotic and Folk Song
+6	Brass Quartet
+7	Brass Quintet
+8	Euphonium Solo
+9	Euphonium Sonata/Concerto
+10	French Horn Duet
+11	French Horn Quartet
+12	French Horn Trio
+13	French Horn Solo
+14	French Horn Sonata/Concerto
+15	Trombone Solo
+16	Trombone Sonata/Concerto
+17	Trumpet Duet
+18	Trumpet Solo
+19	Trumpet Sonata/Concerto
+20	Tuba Solo
+21	Tuba Sonata/Concerto
+22	Composition Competition
+23	Dance-Ballet
+24	Dance-Acrobatic
+25	Dance-Jazz
+26	Dance-Modern
+27	Dance-Tap
+28	Musicianship Improvisation
+29	Musicianship Theory
+30	Organ Home Solo
+31	Organ Hymn Playing
+32	Organ Pipe Organ Solo
+33	Handbell Duet-Trio-Quartet
+34	Handbell 2 Octaves
+35	Handbell 3 Octaves
+36	Handbell 4-5 Octaves
+37	Handbell Solo
+38	Keyboard Percussion Solo
+39	Multiple Percussion Solo
+40	Snare Drum Solo
+41	Timpani Solo
+42	Piano Accompaniment
+43	Piano Concerto
+44	Piano Duet
+45	Piano Duo
+46	Piano Quartet
+47	Piano Trio
+48	Piano Hymn
+49	Piano Lynn Freeman Olson Solo
+50	Piano Solo
+51	Piano One Hand Solo
+52	Piano Chamber Music Quartet
+53	Piano Chamber Music Trio I
+54	Piano Chamber Music Trio II
+55	Piano Chamber Music Trio III
+56	School Orchestra
+57	Sight Playing-Singing
+58	Guitar Classical Solo
+59	Guitar Classical Duet
+60	Guitar Classical Ensemble
+61	Guitar Classical Concerto
+62	Guitar Electric Bass Solo
+63	Fiddling Duet
+64	Fiddling Solo
+65	Guitar Pick-style Duet
+66	Guitar Pick-style Solo
+67	Harp Concerto
+68	Harp Solo
+69	Mountain Dulcimer
+70	String Bass Concerto
+71	String Bass Ensemble 2
+72	String Bass Ensemble 3
+73	String Bass Ensemble 4
+74	String Bass Solo
+75	Viola Concerto
+76	Viola Ensemble 2
+77	Viola Ensemble 3
+78	Viola Ensemble 4
+79	Viola Solo
+80	Violin Concerto
+81	Violin Ensemble Duet
+82	Violin Ensemble 3
+83	Violin Ensemble 4
+84	Violin Solo
+85	Violoncello Ensemble 2
+86	Violoncello Ensemble 3
+87	Violoncello Ensemble 4
+88	Violoncello Concerto
+89	Violoncello Solo
+90	String Orchestra
+91	String Quartet
+92	String Trio
+93	Viola-Cello Duet
+94	Violin-Cello Duet
+95	Violin-Viola Duet
+96	Voice Duet Art Song
+97	Voice Duet Musical Theater
+98	Voice Ensemble
+99	Voice Solo Art Song
+100	Voice Solo Musical Theater
+101	Bassoon Solo
+102	Bassoon Sonata/Concerto
+103	Clarinet Duet
+104	Clarinet Quartet
+105	Clarinet Solo
+106	Clarinet Sonata/Concerto
+107	Clarinet Trio
+108	Flute Alto Solo
+109	Flute Choir
+110	Flute Concerto
+111	Flute Duet
+112	Flute Quartet
+113	Flute Solo
+114	Flute Trio
+115	Oboe Solo
+116	Oboe Sonata/Concerto
+117	Piccolo Concerto
+118	Piccolo Solo
+119	Recorder Alto Solo
+120	Recorder Bass Solo
+121	Recorder Duet
+122	Recorder Quartet
+123	Recorder Soprano Solo
+124	Recorder Tenor Solo
+125	Recorder Trio
+126	Saxophone Alto Solo
+127	Saxophone Alto Sonata/Concerto
+128	Saxophone Baritone Solo
+129	Saxophone Duet
+130	Saxophone Quartet AATB
+131	Saxophone Quartet SATB
+132	Saxophone Tenor Solo
+133	Saxophone Tenor Sonata/Concerto
+134	Woodwind Quintet
+ClassID	ClassDescription
+1	Advanced Class
+2	Advanced Class I
+3	Advanced Class II
+4	Class I
+5	Class II
+6	Class III
+7	Class IV
+8	Class V
+9	Difficult Class
+10	Difficult Class I
+11	Difficult Class II
+12	Easy Class
+13	Elementary Class
+14	Elementary Class I
+15	Elementary Class II
+16	Elementary Class III
+17	Elementary Class IV
+18	Intermediate Class
+19	Intermediate Class I
+20	Intermediate Class II
+21	Intermediate Class III
+22	Intermediate Class IV
+23	Junior Class
+24	Junior Class I
+25	Junior Class I-A
+26	Junior Class I-B
+27	Junior Class II
+28	Junior Class III
+29	Junior Class IV
+30	Level I
+31	Level II
+32	Level III
+33	Level IV
+34	Level V
+35	Level VI
+36	Level VII
+37	Level VIII
+38	Level IX
+39	Level X
+40	Level XI
+41	Level XII
+42	Medium Class
+43	Medium Class I
+44	Medium Class II
+45	Medium Class III
+46	Medium Difficult Class
+47	Moderately Difficult Class
+48	Moderately Difficult Class I
+49	Moderately Difficult Class II
+50	Moderately Difficult Class III
+51	Musically Advanced Class
+52	Musically Advanced Class I
+53	Musically Advanced Class II
+54	Musically Advanced Class III
+55	Pre-Primary Class
+56	Primary Class
+57	Primary Class A
+58	Primary Class B
+59	Primary Class C
+60	Primary Class D
+61	Primary Class E
+62	Primary Class I
+63	Primary Class II
+64	Primary Class III
+65	Primary Class IV
+66	Senior Class
+67	Senior Class I
+68	Senior Class II
+69	Senior Class III
+70	Senior Class IV
+71	Very Difficult Class
+72	Very Difficult Class I
+73	Very Difficult Class II
+74	Very Easy Class
+75	Beginner Level I
+76	Beginner Level II
+77	Beginner Level III
+78	Primary Level I
+79	Primary Level II
+80	Primary Level III
+81	Elementary Level I
+82	Elementary Level II
+83	Elementary Level III
+84	Intermediate Level I
+85	Intermediate Level II
+86	Intermediate Level III
+87	Advanced Level I
+88	Advanced Level II
+89	Advanced Level III

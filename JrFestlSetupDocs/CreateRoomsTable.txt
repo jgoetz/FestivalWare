@@ -1,0 +1,4 @@
+CREATE TABLE Rooms (
+	RoomID SMALLINT PRIMARY KEY AUTO_INCREMENT, 
+	RoomDescription VARCHAR(15) not null
+);

@@ -1,0 +1,5 @@
+select * into outfile "historydata2.txt" 
+fields terminated by ',' 
+optionally enclosed by '"' 
+lines terminated by "\n" 
+from history where year = 2004 ;
